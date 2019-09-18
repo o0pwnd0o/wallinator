@@ -14,7 +14,7 @@ sd.default.channels = 2
 selected_part = 0
 parts = []
 
-
+#weisch wer fett isch??? Antwort unte
 class Part:
     def __init__(self, audio, start, stop):
         self.takes = []
@@ -134,3 +134,4 @@ Button(edit_frame, text="Play Take", command=play_take).pack(side=LEFT)
 Button(edit_frame, text="New Take", command=record_take).pack(side=LEFT)
 
 root.mainloop()
+#pascovazqo
